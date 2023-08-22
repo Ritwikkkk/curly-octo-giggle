@@ -9,6 +9,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import LabelEncoder
 from PIL import Image
 import base64
+import numpy as np
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
